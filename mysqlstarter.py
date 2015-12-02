@@ -8,17 +8,12 @@
 """
 content = """import os, sys, time
 os.system("clear")
-print "Loading..."
-time.sleep(1)
 os.system("mkdir /var/run/mysqld")
 os.system("touch /var/run/mysqld")
 os.system("ls -lart /var/run/mysqld")
-time.sleep(1)
 os.system("chown -R mysql /var/run/mysqld")
 os.system("ls -lart /var/run/mysqld")
-time.sleep(1)
 os.system("/etc/init.d/mysql restart")
-time.sleep(1)
 os.system("clear")
 sys.exit(0)"""
 
