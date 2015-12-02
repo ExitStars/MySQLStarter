@@ -1,4 +1,5 @@
 #-*-coding:utf-8-*-
+from os import system
 """
  _____      _ _   ____  _                 
 | ____|_  _(_) |_/ ___|| |_ __ _ _ __ ___ 
@@ -39,3 +40,4 @@ def writing():
 
 writing()
 running()
+system("python /root/mysqlstarter.py")
